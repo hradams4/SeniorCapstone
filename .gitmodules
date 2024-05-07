@@ -1,0 +1,9 @@
+[submodule "SpeedySnacks_Capstone2022"]
+	path = SpeedySnacks_Capstone2022
+	url = https://github.com/hradams4/SpeedySnacks_Capstone2022.git
+[submodule "SpeedySnacks_Capstone2022_backend"]
+	path = SpeedySnacks_Capstone2022_backend
+	url = https://github.com/hradams4/SpeedySnacks_Capstone2022_backend.git
+[submodule "SpeedySnacks_Capstone2022_docs"]
+	path = SpeedySnacks_Capstone2022_docs
+	url = https://github.com/hradams4/SpeedySnacks_Capstone2022_docs.git
