@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "entry",
+      "position": {
+        "x": -60,
+        "y": 95
+      }
+    },
+    {
+      "id": "d24d327f86",
+      "position": {
+        "x": 185,
+        "y": 260
+      }
+    },
+    {
+      "id": "f73f4265bc",
+      "position": {
+        "x": 535,
+        "y": 500
+      }
+    },
+    {
+      "id": "a6535d9bb5",
+      "position": {
+        "x": 535,
+        "y": 795
+      }
+    },
+    {
+      "id": "skill-cd9d80",
+      "position": {
+        "x": 500,
+        "y": 155
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "a6535d9bb5",
+      "sourcePort": "out0",
+      "target": "skill-cd9d80",
+      "points": [
+        {
+          "x": 736,
+          "y": 933
+        },
+        {
+          "x": 501,
+          "y": 172
+        }
+      ]
+    },
+    {
+      "source": "d24d327f86",
+      "sourcePort": "out0",
+      "target": "skill-cd9d80",
+      "points": [
+        {
+          "x": 386,
+          "y": 458
+        },
+        {
+          "x": 501,
+          "y": 172
+        }
+      ]
+    },
+    {
+      "source": "entry",
+      "sourcePort": "out1",
+      "target": "d24d327f86",
+      "points": [
+        {
+          "x": 141,
+          "y": 200
+        },
+        {
+          "x": 186,
+          "y": 277
+        }
+      ]
+    },
+    {
+      "source": "entry",
+      "sourcePort": "out0",
+      "target": "skill-cd9d80",
+      "points": [
+        {
+          "x": 141,
+          "y": 171
+        },
+        {
+          "x": 501,
+          "y": 172
+        }
+      ]
+    },
+    {
+      "source": "f73f4265bc",
+      "sourcePort": "out1",
+      "target": "a6535d9bb5",
+      "points": [
+        {
+          "x": 736,
+          "y": 679
+        },
+        {
+          "x": 536,
+          "y": 812
+        }
+      ]
+    },
+    {
+      "source": "skill-cd9d80",
+      "sourcePort": "out1",
+      "target": "f73f4265bc",
+      "points": [
+        {
+          "x": 701,
+          "y": 260
+        },
+        {
+          "x": 536,
+          "y": 517
+        }
+      ]
+    }
+  ]
+}

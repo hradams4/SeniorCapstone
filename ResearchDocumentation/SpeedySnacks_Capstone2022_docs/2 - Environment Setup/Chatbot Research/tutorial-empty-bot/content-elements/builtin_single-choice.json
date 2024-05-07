@@ -1,0 +1,56 @@
+[
+  {
+    "id": "builtin_single-choice--3cRQJ",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "Yes, please direct me to the website.",
+          "value": "Yes, please direct me to the website."
+        },
+        {
+          "title": "No, test out the NLU first.",
+          "value": "No, test out the NLU first."
+        }
+      ],
+      "markdown$en": true,
+      "disableFreeText$en": true,
+      "typing$en": true,
+      "text$en": "Would you like to be directed to the SpeedySnacks website?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-27T22:50:55.534Z",
+    "modifiedOn": "2022-11-27T22:50:55.534Z"
+  },
+  {
+    "id": "builtin_single-choice-f0pPCJ",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "Speedy Snacks webpage",
+          "value": "Speedy Snacks webpage"
+        },
+        {
+          "title": "Downtown Ottowa (Center)",
+          "value": "Downtown Ottowa (Center)"
+        },
+        {
+          "title": "Ottowa (West)",
+          "value": "Ottowa (West)"
+        },
+        {
+          "title": "Gatineau",
+          "value": "Gatineau"
+        }
+      ],
+      "markdown$en": true,
+      "disableFreeText$en": true,
+      "typing$en": true,
+      "text$en": "Pick choose the location you would like to be directed to or choose the main Speedy Snacks webpage"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-12-02T00:51:38.519Z",
+    "modifiedOn": "2022-12-02T01:06:32.195Z"
+  }
+]

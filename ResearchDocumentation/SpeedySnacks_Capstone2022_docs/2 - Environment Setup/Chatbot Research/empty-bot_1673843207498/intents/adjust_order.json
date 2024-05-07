@@ -1,0 +1,21 @@
+{
+  "name": "adjust_order",
+  "utterances": {
+    "en": [
+      "adjust order",
+      "how to edit order",
+      "editing the last order",
+      "how to edit order",
+      "out of product, edit order",
+      "delete order",
+      "change the order",
+      "make changes to an order",
+      "add product to an order",
+      "delete product from an order"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

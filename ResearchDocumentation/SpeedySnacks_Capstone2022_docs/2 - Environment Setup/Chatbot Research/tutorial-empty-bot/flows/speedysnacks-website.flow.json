@@ -1,0 +1,139 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": []
+  },
+  "startNode": "site_choice",
+  "description": "",
+  "nodes": [
+    {
+      "id": "6407769ded",
+      "name": "no_site_for_location",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Djm7py"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "542cfb0642",
+      "name": "ottowa_site",
+      "next": [
+        {
+          "condition": "true",
+          "node": "back_to_main"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_carousel-M3dlF4"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "0e2d0b988c",
+      "name": "back_to_main",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "main.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-ifLRMt",
+        "builtin/wait {\"delay\":\"2000\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "b97803dd87",
+      "name": "downtown_ottowa_site",
+      "next": [
+        {
+          "condition": "true",
+          "node": "back_to_main"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_carousel-B_OiB1"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "1a626aaa45",
+      "name": "gatineau_site",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "back_to_main"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_carousel-du_pIO"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "skill-85d05e",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "site_choice",
+      "flow": "skills/choice-85d05e.flow.json",
+      "next": [
+        {
+          "caption": "User picked [Downtow...]",
+          "condition": "temp['skill-choice-ret-e1z2uly82s'] == \"Downtown Ottowa (Center)\"",
+          "node": "downtown_ottowa_site"
+        },
+        {
+          "caption": "User picked [Gatineau]",
+          "condition": "temp['skill-choice-ret-e1z2uly82s'] == \"Gatineau\"",
+          "node": "gatineau_site"
+        },
+        {
+          "caption": "User picked [Ottowa ...]",
+          "condition": "temp['skill-choice-ret-e1z2uly82s'] == \"Ottowa (West)\"",
+          "node": "ottowa_site"
+        },
+        {
+          "caption": "User picked [Speedy ...]",
+          "condition": "temp['skill-choice-ret-e1z2uly82s'] == \"Speedy Snacks webpage\"",
+          "node": "speedysnacks_site"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "no_site_for_location"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "d162ec3cab",
+      "name": "speedysnacks_site",
+      "next": [
+        {
+          "condition": "true",
+          "node": "back_to_main"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_carousel-x_soee"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

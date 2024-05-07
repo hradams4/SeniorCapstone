@@ -1,0 +1,92 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "next": []
+  },
+  "startNode": "entry",
+  "skillData": {
+    "randomId": "e1z2uly82s",
+    "contentId": "builtin_single-choice-f0pPCJ",
+    "invalidContentId": "",
+    "keywords": {
+      "Speedy Snacks webpage": [
+        "Speedy Snacks webpage"
+      ],
+      "Downtown Ottowa (Center)": [
+        "Downtown Ottowa (Center)"
+      ],
+      "Ottowa (West)": [
+        "Ottowa (West)"
+      ],
+      "Gatineau": [
+        "Gatineau"
+      ]
+    },
+    "config": {
+      "nbMaxRetries": 3,
+      "repeatChoicesOnInvalid": false,
+      "variableName": ""
+    }
+  },
+  "nodes": [
+    {
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_single-choice-f0pPCJ {\"skill\":\"choice\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "715092"
+    },
+    {
+      "name": "parse",
+      "onReceive": [
+        "basic-skills/choice_parse_answer {\"randomId\":\"e1z2uly82s\",\"contentId\":\"builtin_single-choice-f0pPCJ\",\"invalidContentId\":\"\",\"keywords\":{\"Speedy Snacks webpage\":[\"Speedy Snacks webpage\"],\"Downtown Ottowa (Center)\":[\"Downtown Ottowa (Center)\"],\"Ottowa (West)\":[\"Ottowa (West)\"],\"Gatineau\":[\"Gatineau\"]},\"config\":{\"nbMaxRetries\":3,\"repeatChoicesOnInvalid\":false,\"variableName\":\"\"}}"
+      ],
+      "next": [
+        {
+          "condition": "temp['skill-choice-valid-e1z2uly82s'] === true",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "invalid"
+        }
+      ],
+      "onEnter": [],
+      "id": "519273"
+    },
+    {
+      "name": "invalid",
+      "onEnter": [
+        "basic-skills/choice_invalid_answer {\"randomId\":\"e1z2uly82s\"}"
+      ],
+      "next": [
+        {
+          "condition": "Number(temp['skill-choice-invalid-count-e1z2uly82s']) > Number(3)",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "sorry"
+        }
+      ],
+      "id": "861145"
+    },
+    {
+      "name": "sorry",
+      "onEnter": [],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "102901"
+    }
+  ]
+}

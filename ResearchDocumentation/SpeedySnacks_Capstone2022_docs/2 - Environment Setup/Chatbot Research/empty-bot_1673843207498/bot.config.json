@@ -1,0 +1,57 @@
+{
+  "locked": false,
+  "details": {
+    "website": "",
+    "phoneNumber": "",
+    "emailAddress": "",
+    "termsConditions": "",
+    "privacyPolicy": "",
+    "avatarUrl": "/api/v1/bots/empty-bot/media/d12w59uinao4lil8nla5-SS_Logo.jpg",
+    "coverPictureUrl": "/api/v1/bots/empty-bot/media/dnzyucaesl9lhv7gvivj-SS_Logo.png"
+  },
+  "skillChoice": {
+    "matchNLU": true,
+    "matchNumbers": true
+  },
+  "skillSendEmail": {
+    "transportConnectionString": "<<change me>>"
+  },
+  "$schema": "../../bot.config.schema.json",
+  "description": "",
+  "active": true,
+  "name": "Speedy Snacks Chatbot",
+  "author": "Botpress, Inc.",
+  "license": "AGPL-3.0",
+  "imports": {
+    "modules": [],
+    "incomingMiddleware": [],
+    "outgoingMiddleware": []
+  },
+  "dialog": {
+    "timeoutInterval": "5m"
+  },
+  "logs": {
+    "expiration": "1 week"
+  },
+  "defaultLanguage": "en",
+  "languages": [
+    "en"
+  ],
+  "id": "empty-bot",
+  "messaging": {
+    "clientId": "50fd8774-0624-4521-810f-6af3ccf6a3e0",
+    "clientToken": "8306f864-e1ce-4f77-9b35-740b772ce6f8.cbvRkts5Yej6r693p0/d5xcIAr7vo2KeL8Owm01Pnz5urqmD0kMX8GnsK28m6d2+UNWmBPWwxQ0ZU/puQa77/seo",
+    "channels": {},
+    "webhookToken": "q0rYmHb4CwIedzL0SNpAwHYDoUmvyOFsVsV+/CY86rlbgXy9I1yumXduaOqz611dXKgzL0AY2t2mEdU4fKwAbNne"
+  },
+  "cloud": {
+    "botId": "5bf39d0f-bd6f-4f11-be7e-20ddcd6b4a2b",
+    "workspaceId": "6c5ab75e-45b8-46a3-a4e3-e2febe7238a8",
+    "botVersion": "2023-01-16T04:24:45.383Z"
+  },
+  "nluModels": {
+    "en": "5862f6aec07dd137.b2eeb23efb448373.8144.en"
+  },
+  "env": {},
+  "showBotInfoPage": false
+}

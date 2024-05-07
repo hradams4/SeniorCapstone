@@ -1,0 +1,160 @@
+[
+  {
+    "id": "builtin_text-NHYpbs",
+    "formData": {
+      "text$en": "Hi",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-27T22:20:29.923Z",
+    "modifiedOn": "2022-11-27T22:20:29.923Z"
+  },
+  {
+    "id": "builtin_text-EVJsxT",
+    "formData": {
+      "text$en": "I'm a Speedy Snacks support bot meant to answer common questions and help you navigate the app!",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-27T22:22:16.744Z",
+    "modifiedOn": "2022-11-27T22:22:16.744Z"
+  },
+  {
+    "id": "builtin_text-LTvMiP",
+    "formData": {
+      "text$en": "Woops, looks like you fell out of bounds!",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-28T00:31:52.997Z",
+    "modifiedOn": "2022-11-28T00:31:52.997Z"
+  },
+  {
+    "id": "builtin_text-iKXeqv",
+    "formData": {
+      "text$en": "Bringing you back to a safe place.",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-28T00:32:28.730Z",
+    "modifiedOn": "2022-11-28T00:32:28.730Z"
+  },
+  {
+    "id": "builtin_text-SKI61Q",
+    "formData": {
+      "text$en": "Great, try writing something like \"Show me the speedysnacks website\"",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Great, try writing something like \"Link me to the website\"",
+        "Great, try writing something like \"Navigate to the web page\""
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-28T00:40:58.013Z",
+    "modifiedOn": "2022-12-02T00:47:02.184Z"
+  },
+  {
+    "id": "builtin_text-Qkhf5-",
+    "formData": {
+      "text$en": "I'm sorry, I didn't get that.",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-30T20:43:35.729Z",
+    "modifiedOn": "2022-11-30T20:43:35.729Z"
+  },
+  {
+    "id": "builtin_text-5MuPpM",
+    "formData": {
+      "text$en": "Which store location would you like to be directed to? (try Downtown Ottowa, Gatineau, etc)",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-30T21:34:58.026Z",
+    "modifiedOn": "2022-11-30T22:49:06.070Z"
+  },
+  {
+    "id": "builtin_text-qY9iL5",
+    "formData": {
+      "text$en": "Not sure I got that, maybe try a location like Gatineau, Downtown Ottowa, or Ottowa West.",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-30T21:36:24.993Z",
+    "modifiedOn": "2022-11-30T22:49:15.523Z"
+  },
+  {
+    "id": "builtin_text-Djm7py",
+    "formData": {
+      "text$en": "No site for that location. Hint: try Ottowa West",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-11-30T21:55:39.351Z",
+    "modifiedOn": "2022-11-30T21:55:39.351Z"
+  },
+  {
+    "id": "builtin_text-ifLRMt",
+    "formData": {
+      "text$en": "Here is the website you requested!",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-12-01T23:21:23.002Z",
+    "modifiedOn": "2022-12-02T23:08:47.827Z"
+  },
+  {
+    "id": "builtin_text-tT6qBZ",
+    "formData": {
+      "text$en": "Here is the Downtown Ottowa (Center) Speedy Snacks Website",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-12-01T23:36:16.293Z",
+    "modifiedOn": "2022-12-01T23:39:41.378Z"
+  },
+  {
+    "id": "builtin_text-gmyc-M",
+    "formData": {
+      "text$en": "Here is the Gatineau Speedy Snacks Website",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-12-01T23:36:50.123Z",
+    "modifiedOn": "2022-12-01T23:36:50.123Z"
+  },
+  {
+    "id": "builtin_text-_5KhDa",
+    "formData": {
+      "text$en": "Here is the Ottowa (West) Speedy Snacks Website",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-12-01T23:39:19.657Z",
+    "modifiedOn": "2022-12-01T23:39:19.657Z"
+  },
+  {
+    "id": "builtin_text-h_NQLj",
+    "formData": {
+      "text$en": "Here is the Speedy Snacks Website",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-12-02T01:03:00.468Z",
+    "modifiedOn": "2022-12-02T01:03:00.468Z"
+  }
+]

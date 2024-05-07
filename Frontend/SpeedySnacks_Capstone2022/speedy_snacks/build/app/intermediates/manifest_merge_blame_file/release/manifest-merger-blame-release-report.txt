@@ -1,0 +1,141 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.speedy_snacks"
+4    android:versionCode="4001"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\android\app\src\main\AndroidManifest.xml:3:5-67
+11-->C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\android\app\src\main\AndroidManifest.xml:3:22-64
+12
+13    <application
+14        android:name="android.app.Application"
+14-->C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\android\app\src\main\AndroidManifest.xml:7:9-42
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.8.0] C:\Users\willi\.gradle\caches\transforms-3\d363e3b5616f580c766e3e2b3c05f27d\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\android\app\src\main\AndroidManifest.xml:8:9-43
+17        android:label="speedy_snacks" >
+17-->C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\android\app\src\main\AndroidManifest.xml:6:9-38
+18        <activity
+18-->C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\android\app\src\main\AndroidManifest.xml:9:9-29:20
+19            android:name="com.example.speedy_snacks.MainActivity"
+19-->C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\android\app\src\main\AndroidManifest.xml:10:13-41
+20            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+20-->C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\android\app\src\main\AndroidManifest.xml:14:13-163
+21            android:exported="true"
+21-->C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\android\app\src\main\AndroidManifest.xml:11:13-36
+22            android:hardwareAccelerated="true"
+22-->C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\android\app\src\main\AndroidManifest.xml:15:13-47
+23            android:launchMode="singleTop"
+23-->C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\android\app\src\main\AndroidManifest.xml:12:13-43
+24            android:theme="@style/LaunchTheme"
+24-->C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\android\app\src\main\AndroidManifest.xml:13:13-47
+25            android:windowSoftInputMode="adjustResize" >
+25-->C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\android\app\src\main\AndroidManifest.xml:16:13-55
+26
+27            <!--
+28                 Specifies an Android theme to apply to this Activity as soon as
+29                 the Android process has started. This theme is visible to the user
+30                 while the Flutter UI initializes. After that, this theme continues
+31                 to determine the Window background behind the Flutter UI.
+32            -->
+33            <meta-data
+33-->C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\android\app\src\main\AndroidManifest.xml:21:13-24:17
+34                android:name="io.flutter.embedding.android.NormalTheme"
+34-->C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\android\app\src\main\AndroidManifest.xml:22:15-70
+35                android:resource="@style/NormalTheme" />
+35-->C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\android\app\src\main\AndroidManifest.xml:23:15-52
+36
+37            <intent-filter>
+37-->C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\android\app\src\main\AndroidManifest.xml:25:13-28:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\android\app\src\main\AndroidManifest.xml:26:17-68
+38-->C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\android\app\src\main\AndroidManifest.xml:26:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\android\app\src\main\AndroidManifest.xml:27:17-76
+40-->C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\android\app\src\main\AndroidManifest.xml:27:27-74
+41            </intent-filter>
+42        </activity>
+43        <!--
+44             Don't delete the meta-data below.
+45             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+46        -->
+47        <meta-data
+47-->C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\android\app\src\main\AndroidManifest.xml:32:9-34:33
+48            android:name="flutterEmbedding"
+48-->C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\android\app\src\main\AndroidManifest.xml:33:13-44
+49            android:value="2" />
+49-->C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\android\app\src\main\AndroidManifest.xml:34:13-30
+50
+51        <provider
+51-->[:flutter_email_sender] C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\build\flutter_email_sender\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-18:20
+52            android:name="com.sidlatau.flutteremailsender.FlutterEmailSenderFileProvider"
+52-->[:flutter_email_sender] C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\build\flutter_email_sender\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-90
+53            android:authorities="com.example.speedy_snacks.file_provider"
+53-->[:flutter_email_sender] C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\build\flutter_email_sender\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-65
+54            android:exported="false"
+54-->[:flutter_email_sender] C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\build\flutter_email_sender\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+55            android:grantUriPermissions="true" >
+55-->[:flutter_email_sender] C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\build\flutter_email_sender\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-47
+56            <meta-data
+56-->[:flutter_email_sender] C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\build\flutter_email_sender\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-17:61
+57                android:name="android.support.FILE_PROVIDER_PATHS"
+57-->[:flutter_email_sender] C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\build\flutter_email_sender\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-67
+58                android:resource="@xml/shared_file_paths" />
+58-->[:flutter_email_sender] C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\build\flutter_email_sender\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-58
+59        </provider>
+60
+61        <activity
+61-->[:url_launcher] C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\build\url_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+62            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+62-->[:url_launcher] C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\build\url_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+63            android:exported="false"
+63-->[:url_launcher] C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\build\url_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+64            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+64-->[:url_launcher] C:\Users\willi\Desktop\SER401\SpeedySnacks_Capstone2022\speedy_snacks\build\url_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+65
+66        <uses-library
+66-->[androidx.window:window:1.0.0-beta04] C:\Users\willi\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+67            android:name="androidx.window.extensions"
+67-->[androidx.window:window:1.0.0-beta04] C:\Users\willi\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+68            android:required="false" />
+68-->[androidx.window:window:1.0.0-beta04] C:\Users\willi\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+69        <uses-library
+69-->[androidx.window:window:1.0.0-beta04] C:\Users\willi\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+70            android:name="androidx.window.sidecar"
+70-->[androidx.window:window:1.0.0-beta04] C:\Users\willi\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+71            android:required="false" />
+71-->[androidx.window:window:1.0.0-beta04] C:\Users\willi\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+72
+73        <provider
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\willi\.gradle\caches\transforms-3\9fc546b4b41c30406c1c6f8de93a0c6d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+74            android:name="androidx.startup.InitializationProvider"
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\willi\.gradle\caches\transforms-3\9fc546b4b41c30406c1c6f8de93a0c6d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+75            android:authorities="com.example.speedy_snacks.androidx-startup"
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\willi\.gradle\caches\transforms-3\9fc546b4b41c30406c1c6f8de93a0c6d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+76            android:exported="false" >
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\willi\.gradle\caches\transforms-3\9fc546b4b41c30406c1c6f8de93a0c6d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+77            <meta-data
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\willi\.gradle\caches\transforms-3\9fc546b4b41c30406c1c6f8de93a0c6d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+78                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\willi\.gradle\caches\transforms-3\9fc546b4b41c30406c1c6f8de93a0c6d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+79                android:value="androidx.startup" />
+79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\willi\.gradle\caches\transforms-3\9fc546b4b41c30406c1c6f8de93a0c6d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+80            <meta-data
+80-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\willi\.gradle\caches\transforms-3\c7dc2d946f639e7b414f5fbe78913a76\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+81                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+81-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\willi\.gradle\caches\transforms-3\c7dc2d946f639e7b414f5fbe78913a76\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+82                android:value="androidx.startup" />
+82-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\willi\.gradle\caches\transforms-3\c7dc2d946f639e7b414f5fbe78913a76\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+83        </provider>
+84    </application>
+85
+86</manifest>

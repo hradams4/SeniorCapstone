@@ -1,0 +1,14 @@
+{
+  "name": "__qna__03cp15osds_how_can_i_turn_of_incoming_orders",
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "How can I turn off incoming orders?",
+      "How to stop orders",
+      "halt incoming orders"
+    ]
+  },
+  "slots": []
+}

@@ -1,0 +1,21 @@
+{
+  "name": "order_history",
+  "utterances": {
+    "en": [
+      "order history",
+      "last order",
+      "where to find orders",
+      "how to go to last order",
+      "look up order history",
+      "figure out order",
+      "check out an order",
+      "edit order",
+      "confirm order",
+      "figure out order"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

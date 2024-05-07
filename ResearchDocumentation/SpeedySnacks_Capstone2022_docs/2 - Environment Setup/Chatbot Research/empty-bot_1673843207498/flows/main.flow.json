@@ -1,0 +1,195 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "greet_if_needed",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "greet_if_needed",
+      "next": [
+        {
+          "condition": "session.greeted === \"true\"",
+          "conditionType": "props",
+          "node": "suggest_action"
+        },
+        {
+          "condition": "true",
+          "node": "greet"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null
+    },
+    {
+      "id": "d24d327f86",
+      "name": "greet",
+      "next": [
+        {
+          "condition": "true",
+          "node": "suggest_action"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"session\",\"name\":\"greeted\",\"value\":\"true\"}",
+        "say #!builtin_text-NHYpbs",
+        "say #!builtin_text-EVJsxT"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "f73f4265bc",
+      "name": "intent_detection",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'speedysnacks_website'",
+          "conditionType": "intent",
+          "node": "speedysnacks-website.flow.json"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'disable_incoming_orders'",
+          "conditionType": "intent",
+          "node": "disable_orders"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'adjust_order'",
+          "conditionType": "intent",
+          "node": "adjust_order"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'order_history'",
+          "conditionType": "intent",
+          "node": "view_orders"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'password_change'",
+          "conditionType": "intent",
+          "node": "change_password"
+        },
+        {
+          "condition": "true",
+          "node": "misunderstood"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-SKI61Q"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "a6535d9bb5",
+      "name": "misunderstood",
+      "next": [
+        {
+          "condition": "true",
+          "node": "suggest_action"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Qkhf5-"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "skill-cd9d80",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "suggest_action",
+      "flow": "skills/choice-cd9d80.flow.json",
+      "next": [
+        {
+          "caption": "User picked [Yes, pl...]",
+          "condition": "temp['skill-choice-ret-phfu1aupc0'] == \"Yes, please direct me to the website.\"",
+          "node": "speedysnacks-website.flow.json"
+        },
+        {
+          "caption": "User picked [No, I h...]",
+          "condition": "temp['skill-choice-ret-phfu1aupc0'] == \"No, I have a different question.\"",
+          "node": "intent_detection"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "f04d3cf039",
+      "name": "adjust_order",
+      "next": [
+        {
+          "condition": "true",
+          "node": "answered"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-I7vyv6"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "4d2529263a",
+      "name": "disable_orders",
+      "next": [
+        {
+          "condition": "true",
+          "node": "answered"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-HeqbF2"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "87e1cec4fd",
+      "name": "view_orders",
+      "next": [
+        {
+          "condition": "true",
+          "node": "answered"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-a4VYZc"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "2cfcb9d0d3",
+      "name": "change_password",
+      "next": [
+        {
+          "condition": "true",
+          "node": "answered"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-0tXTjD"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "ccc014a973",
+      "name": "answered",
+      "next": [
+        {
+          "condition": "true",
+          "node": "greet_if_needed"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-SWHQwX"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

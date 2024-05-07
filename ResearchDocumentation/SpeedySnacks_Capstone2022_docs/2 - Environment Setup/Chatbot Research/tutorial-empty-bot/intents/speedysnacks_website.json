@@ -1,0 +1,40 @@
+{
+  "name": "speedysnacks_website",
+  "utterances": {
+    "en": [
+      "Show speedysnacks website",
+      "Take me to speedysnacks webpage",
+      "Show speedy snacks site",
+      "Navigate to speedysnacks page",
+      "Link me to the website",
+      "website",
+      "web site",
+      "Show the [Gatineau](storeLocation) store page",
+      "I want to see the [Ottowa](storeLocation) speedysnacks site",
+      "Navigate to [Ottowa West](storeLocation) webpage",
+      "Please show me [Gatineau](storeLocation) speedysnacks landing page",
+      "take me to [gatineau](storeLocation) site",
+      "show the [ottowa](storeLocation) page",
+      "link to [ottowa west](storeLocation)",
+      "[Ottowa](storeLocation)",
+      "[Ottowa West](storeLocation)",
+      "[Gatineau](storeLocation)",
+      "[ottowa](storeLocation)",
+      "[ottowa west](storeLocation)",
+      "[gatineau](storeLocation)"
+    ]
+  },
+  "slots": [
+    {
+      "id": "LsIWAMHACz93mhebb2oVp",
+      "name": "storeLocation",
+      "entities": [
+        "any"
+      ],
+      "color": 1
+    }
+  ],
+  "contexts": [
+    "global"
+  ]
+}

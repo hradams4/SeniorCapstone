@@ -1,0 +1,13 @@
+[
+  {
+    "id": "builtin_image-zifoIe",
+    "formData": {
+      "typing$en": true,
+      "image$en": "{{{temp.storeLocation}}}",
+      "title$en": "Store location url"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-12-01T23:20:10.945Z",
+    "modifiedOn": "2022-12-01T23:20:10.945Z"
+  }
+]

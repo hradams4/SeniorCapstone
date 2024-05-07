@@ -1,0 +1,108 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "greet_if_needed",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "greet_if_needed",
+      "next": [
+        {
+          "condition": "session.greeted === \"true\"",
+          "conditionType": "props",
+          "node": "suggest_action"
+        },
+        {
+          "condition": "true",
+          "node": "greet"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null
+    },
+    {
+      "id": "d24d327f86",
+      "name": "greet",
+      "next": [
+        {
+          "condition": "true",
+          "node": "suggest_action"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"session\",\"name\":\"greeted\",\"value\":\"true\"}",
+        "say #!builtin_text-NHYpbs",
+        "say #!builtin_text-EVJsxT"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "f73f4265bc",
+      "name": "intent_detection",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'speedysnacks_website'",
+          "conditionType": "intent",
+          "node": "speedysnacks-website.flow.json"
+        },
+        {
+          "condition": "true",
+          "node": "misunderstood"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-SKI61Q"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "a6535d9bb5",
+      "name": "misunderstood",
+      "next": [
+        {
+          "condition": "true",
+          "node": "suggest_action"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Qkhf5-"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "skill-cd9d80",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "suggest_action",
+      "flow": "skills/choice-cd9d80.flow.json",
+      "next": [
+        {
+          "caption": "User picked [Yes, pl...]",
+          "condition": "temp['skill-choice-ret-phfu1aupc0'] == \"Yes, please direct me to the website.\"",
+          "conditionType": "raw",
+          "node": "speedysnacks-website.flow.json"
+        },
+        {
+          "caption": "User picked [No, tes...]",
+          "condition": "temp['skill-choice-ret-phfu1aupc0'] == \"No, test out the NLU (Natural Language Understanding) first.\"",
+          "conditionType": "raw",
+          "node": "intent_detection"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "conditionType": "always",
+          "node": "fallback_redirect.flow.json"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    }
+  ]
+}

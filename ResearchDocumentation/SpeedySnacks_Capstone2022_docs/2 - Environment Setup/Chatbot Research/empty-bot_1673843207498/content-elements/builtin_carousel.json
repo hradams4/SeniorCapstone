@@ -1,0 +1,94 @@
+[
+  {
+    "id": "builtin_carousel-du_pIO",
+    "formData": {
+      "typing$en": true,
+      "items$en": [
+        {
+          "actions": [
+            {
+              "action": "Open URL",
+              "title": "Gatineau",
+              "url": "https://www.order.store/ca/store/instasnacks/upnFAd6QQ8CmK2fFQmUGAA?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjM4MyUyMEN1bWJlcmxhbmQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMjMzMTQ0YTQ0LTA1NWMtZGQ0ZS05MjhlLWI0MjcyOTc0NzA1OCUyMiUyQyUyMnJlZmVyZW5j"
+            }
+          ],
+          "title": "Speedy Snacks Website",
+          "subtitle": "Gatineau",
+          "image": "/api/v1/bots/BOT_ID_PLACEHOLDER/media/j6a38dds8uva5jysbdjc-Gatineau.png"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-12-02T01:23:03.114Z",
+    "modifiedOn": "2023-01-16T03:36:10.471Z"
+  },
+  {
+    "id": "builtin_carousel-M3dlF4",
+    "formData": {
+      "typing$en": true,
+      "items$en": [
+        {
+          "title": "Speedy Snacks Website",
+          "subtitle": "Ottowa (West)",
+          "actions": [
+            {
+              "action": "Open URL",
+              "title": "Ottowa (West)",
+              "url": "https://www.order.store/ca/store/instasnacks-west/ZTQaprjQSjKTB7IlLw8Dng?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjM4MyUyMEN1bWJlcmxhbmQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMjMzMTQ0YTQ0LTA1NWMtZGQ0ZS05MjhlLWI0MjcyOTc0NzA1OCUyMiUyQyUyMnJlZmV"
+            }
+          ],
+          "image": "/api/v1/bots/BOT_ID_PLACEHOLDER/media/oqjow796zf6yyyrixdpk-West.png"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-12-02T23:11:11.486Z",
+    "modifiedOn": "2023-01-16T03:35:54.473Z"
+  },
+  {
+    "id": "builtin_carousel-B_OiB1",
+    "formData": {
+      "typing$en": true,
+      "items$en": [
+        {
+          "subtitle": "Downtown Ottowa (Center)",
+          "title": "Speedy Snacks Website",
+          "actions": [
+            {
+              "action": "Open URL",
+              "title": "Downtown Ottowa (Center)",
+              "url": "https://www.order.store/ca/store/instasnacks/upnFAd6QQ8CmK2fFQmUGAA?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjM4MyUyMEN1bWJlcmxhbmQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMjMzMTQ0YTQ0LTA1NWMtZGQ0ZS05MjhlLWI0MjcyOTc0NzA1OCUyMiUyQyUyMnJlZmVyZW5j"
+            }
+          ],
+          "image": "/api/v1/bots/BOT_ID_PLACEHOLDER/media/7k9dwmcd6p5nosjv4pwj-Centertown.png"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-12-02T23:12:36.363Z",
+    "modifiedOn": "2023-01-16T03:36:38.191Z"
+  },
+  {
+    "id": "builtin_carousel-x_soee",
+    "formData": {
+      "typing$en": true,
+      "items$en": [
+        {
+          "title": "Speedy Snacks Website",
+          "subtitle": "Home page",
+          "actions": [
+            {
+              "action": "Open URL",
+              "title": "Home Page",
+              "url": "https://speedysnacks.co/"
+            }
+          ],
+          "image": "/api/v1/bots/BOT_ID_PLACEHOLDER/media/vk5b9qjxmym91h4061gj-SpeeedySnacks.png"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-12-02T23:13:45.761Z",
+    "modifiedOn": "2023-01-16T03:35:28.748Z"
+  }
+]

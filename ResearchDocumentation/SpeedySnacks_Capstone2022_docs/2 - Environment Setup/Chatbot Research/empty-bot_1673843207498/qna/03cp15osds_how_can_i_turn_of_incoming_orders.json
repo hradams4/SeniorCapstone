@@ -1,0 +1,24 @@
+{
+  "id": "03cp15osds_how_can_i_turn_of_incoming_orders",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "Navigate to the settings page from the menu side bar and tap the \"Turn off incoming orders\" toggle button."
+      ]
+    },
+    "questions": {
+      "en": [
+        "How can I turn off incoming orders?",
+        "How to stop orders",
+        "halt incoming orders"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

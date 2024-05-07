@@ -1,0 +1,21 @@
+{
+  "name": "disable_incoming_orders",
+  "utterances": {
+    "en": [
+      "Disable orders",
+      "how to stop orders",
+      "how to make the orders stop",
+      "enable orders",
+      "incoming orders",
+      "stopping the orders",
+      "make the incoming orders stop",
+      "turn off orders",
+      "turn on orders",
+      "slow down incoming orders"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

@@ -1,0 +1,4 @@
+#Thu Apr 27 13:26:51 EDT 2023
+base.0=C\:\\Users\\willi\\Desktop\\SER401\\SpeedySnacks_Capstone2022\\speedy_snacks\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
